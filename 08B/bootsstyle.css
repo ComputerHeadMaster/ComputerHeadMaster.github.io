@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  
+}
+body { padding-top: 80px; }
+
+#upbutton  {
+float: right;
+margin-right: 30px;
+margin-bottom: 30px;    
+
+}
+h1{
+text-align: center;
+font-size: 70px;
+}
+
+h4{
+text-align: center;
+font-size: 16px;
+}
+
+h3{
+
+font-size: 18px;
+}
+
+.hp {
+display: block;
+text-align: center;
+float: center;
+margin: 10px;
+
+
+}
