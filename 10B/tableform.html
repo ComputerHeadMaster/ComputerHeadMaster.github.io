@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>10B HTML Tables & Froms</title>
+<meta charset="utf-8">
+<link href="styletable.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+   
+	<table>
+		<caption>Spring Harbor Hospital</caption>
+		<tbody>
+			<tr><th colspan="4">Anonymous Health Informations</th></tr>
+			<tr>
+				<th>Patient</th>
+				<th>Height</th>
+				<th>Weight</th>
+				<th>Blood type</th>
+			</tr>
+			<tr>
+				<td>A</td>
+				<td>175 cm</td>
+				<td>65 kg</td>
+				<td>O</td>
+			</tr>
+			<tr>
+				<td>B</td>
+				<td>166 cm</td>
+				<td>51 kg</td>
+				<td>AB</td>
+			</tr>
+			<tr>
+				<td>C</td>
+				<td>179 cm</td>
+				<td>83 kg</td>
+				<td rowspan="2">B</td>
+			</tr>
+			<tr>
+				<td>D</td>
+				<td>173 cm</td>
+				<td>74 kg</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+ <form>
+<h2>Spring Harbor Hospital</h2><br>
+<fieldset> <legend>Patient Registration</legend>
+<br><br>
+<fieldset>
+ <legend>Patient information</legend>
+<br>
+  <label for="fname">First names:</label>
+  <input type="text" id="fname" name="fname" required><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" required><br><br>
+  <label for="email">Email:</label>
+  <input type="text" name="email" id="email" required>
+</fieldset><br><br>
+<fieldset>
+ <legend>About patient</legend>
+<br>
+<textarea  style="width:500px; height:100px;"></textarea>
+</fieldset><br><br>
+<fieldset>
+ <legend></legend>
+<label for="fname">Height:</label>
+  <input type="text" id="height" name="height">
+  <label for="lname">Weight:</label>
+  <input type="text" id="weight" name="weight">
+  <label for="blood">Blood type:</label>
+  <select id="types" name="blood">
+	<option value="empty"></option>
+	<option value="AB">AB</option>
+	<option value="A">A</option>
+	<option value="B">B</option>
+	<option value="O">O</option>
+  </select>
+</fieldset><br>
+<input type="checkbox" id="anon1" name="anon" value="anonnymous">
+  <label for="anon1"> Patient wants to stay anonymous</label><br>
+  <input type="checkbox" id="mail2" name="mail" value="email">
+  <label for="mail2"> Patient wants an email verification</label><br><br>
+</fieldset><br>
+ <input type="submit" value="Submit">
+</form> 
+</body>
+</html>
