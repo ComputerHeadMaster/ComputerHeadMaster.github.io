@@ -42,7 +42,7 @@ article{
   	box-shadow: 5px 10px;
 	margin: 30px;
 	width: 700px;
-	float: right
+	
 
 	}
 
@@ -59,6 +59,8 @@ footer {
 	background-color: violet;
   	padding: 1px;
   	text-align: center;
+	width: auto;
+	height: 70px;
 	}
 
 aside {
@@ -106,7 +108,12 @@ aside li {
 	color: white;
   }
 
+.glow{width: 300px;
+	}
 
+footer{text-align: center;
+	width: auto;
+	}
 
 	a:link {color: white;}
 	a:visited {color: white;}
